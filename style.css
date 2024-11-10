@@ -1,0 +1,155 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* font sizes */
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5rem; /* Very large text for main heading */
+    color: #3d30a2;
+}
+
+h2 {
+    font-size: 2rem; /* Slightly smaller than h1 */
+    color: #3d30a2;
+}
+
+h3 {
+    font-size: 1.5rem; /* Subheading */
+    color: #3d30a2;
+}
+
+/* Paragraph text */
+p {
+    font-size: 1rem; /* Default text size for paragraphs */
+    margin-bottom: 10px;
+}
+
+/* Larger text (for emphasis) */
+.larger-text {
+    display: flex;
+    font-size: 1.25rem; /* 25% larger than normal text */
+    color: #3d30a2;  /* Blue color for emphasis */
+}
+
+/* Smaller text */
+.smaller-text {
+    font-size: 0.875rem; /* 12px (smaller than normal text) */
+    color: #3d30a2;
+}
+
+/* Extra large text */
+.extra-large {
+    display: flex;
+    font-size: 3rem; /* Much larger text */
+    font-weight: bold;
+    color: #3d30a2; /* Red color */
+}
+
+/* Medium-sized text */
+.medium-text {
+    font-size: 1.2rem; /* A little larger than the regular text */
+}
+
+
+/* Style the header */
+header {
+    background-color: #fbe2e7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;  /* Remove underline */
+
+    
+}
+.clickable-header {
+    
+    text-align: center;
+    align-items: center;  /* Align icon and text horizontally */
+    text-decoration: none;  /* Remove underline */
+    background-color: #fbe2e7;
+    color: white;            /* Text color */
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Button styles */
+
+.btn {
+    padding: 10px 20px;
+    background-color: #eed9c4;  /* Green background */
+    color: #3d30a2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+    background-color: #ecd1b5;  /* Darker green on hover */
+}
+
+/* align */
+
+/* Left-aligned sections */
+.left-align {
+    text-align: left;       /* Align text to the left */
+}
+
+.right-align{
+    text-align: right;
+
+}
+/* Center-aligned sections */
+.center-align {
+    display: flex;
+    justify-content: center;  /* Center content horizontally */
+    text-align: center;       /* Center text inside the section */
+    align-items: center;      /* Center content vertically (if needed) */
+}
+
+/* Banner with button styling */
+.banner-with-button {
+    background-color: #3d30a2;  /* Orange background */
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+.banner-with-button h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.banner-with-button p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
