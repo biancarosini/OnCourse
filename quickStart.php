@@ -220,7 +220,7 @@ $dbname = "OnCourse_db"; // Your database name
 <body>
 
     <header>
-        <a href="home.html" class="clickable-header"><h1>OnCourse</h1></a>
+        <a href="index.php" class="clickable-header"><h1>OnCourse</h1></a>
     </header>
 
     <main>
